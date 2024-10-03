@@ -47,7 +47,7 @@ function Skills() {
 
                 {/* Game Development */}
                 <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                    <FaGamepad className="text-4xl text-purple-600 mb-4 center" />
+                    <FaGamepad className="text-4xl text-purple-600 mb-4" />
                     <h2 className="text-2xl font-semibold mb-4">Game Development</h2>
                     <ul className="space-y-2">
                         <li>Unreal Engine</li>
