@@ -15,6 +15,9 @@ function Navbar() {
                         <Link to="about" smooth={true} duration={500}>About</Link>
                     </li>
                     <li>
+                        <Link to="skills" smooth={true} duration={500}>Skills</Link>
+                    </li>
+                    <li>
                         <Link to="projects" smooth={true} duration={500}>Projects</Link>
                     </li>
                     <li>
