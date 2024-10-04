@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Element } from 'react-scroll';
 import Certifications from './components/Certifications';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </Element>
       <Element name="about">
         <About />
+      </Element>
+      <Element name="education">
+        <Education />
       </Element>
       <Element name="skills">
         <Skills />
