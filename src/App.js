@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Element } from 'react-scroll';
+import Certifications from './components/Certifications';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       </Element>
       <Element name="projects">
         <Projects />
+      </Element>
+      <Element name="c">
+        <Certifications />
       </Element>
       <Element name="contact">
         <Contact />
