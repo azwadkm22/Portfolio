@@ -26,7 +26,7 @@ function App() {
       <Element name="projects">
         <Projects />
       </Element>
-      <Element name="c">
+      <Element name="certifications">
         <Certifications />
       </Element>
       <Element name="contact">

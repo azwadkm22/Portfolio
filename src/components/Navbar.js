@@ -21,6 +21,9 @@ function Navbar() {
                         <Link to="projects" smooth={true} duration={500}>Projects</Link>
                     </li>
                     <li>
+                        <Link to="certifications" smooth={true} duration={500}>Certifications</Link>
+                    </li>
+                    <li>
                         <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
                     </li>
                     <li>
