@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 
 function ProjectCard({ title, description, techStack, link }) {
     return (
-        <div className="bg-slate-300 border border-slate-500 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out p-5">
+        <div className="bg-slate-200 border border-slate-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out p-5">
             <div className="flex flex-col h-full">
                 {/* Project Title */}
                 <h2 className="text-xl font-semibold text-gray-800 mb-3">
