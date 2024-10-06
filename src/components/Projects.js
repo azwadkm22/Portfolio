@@ -6,22 +6,40 @@ function Projects() {
     // Manually defined projects array
     const projects = [
         {
-            title: 'Personal Portfolio Website',
+            title: 'boku.gg',
             description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
             techStack: ['React', 'Tailwind CSS', 'JavaScript'],
             link: 'https://github.com/your-github-username/portfolio-website'
         },
         {
-            title: 'Game Development Project',
-            description: 'A 3D game developed in Unreal Engine. This project involved creating gameplay mechanics, animations, and level design.',
-            techStack: ['Unreal Engine', 'C++'],
-            link: 'https://github.com/your-github-username/game-project'
+            title: 'Solvei',
+            description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
+            techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://github.com/your-github-username/portfolio-website'
         },
         {
-            title: 'E-commerce Platform',
-            description: 'A full-stack e-commerce platform with a shopping cart, checkout process, and order management. Built using Node.js, Express, and MongoDB.',
-            techStack: ['Node.js', 'Express', 'MongoDB'],
-            link: 'https://github.com/your-github-username/e-commerce-platform'
+            title: 'Thaprabo the game',
+            description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
+            techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://github.com/your-github-username/portfolio-website'
+        },
+        {
+            title: 'cg_calculator',
+            description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
+            techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://github.com/your-github-username/portfolio-website'
+        },
+        {
+            title: 'JobDen',
+            description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
+            techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://github.com/your-github-username/portfolio-website'
+        },
+        {
+            title: 'Will - You - Go - With - Me - SDL2',
+            description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
+            techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://github.com/your-github-username/portfolio-website'
         },
         // Add more projects as needed
     ];
