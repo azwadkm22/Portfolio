@@ -30,6 +30,14 @@ function Projects() {
             link: 'https://github.com/azwadkm22/cg_calculator'
         },
         {
+            title: 'Flappy Borb',
+            description: 'Flappy Borb is a Flappy Bird Clone made in Unity.',
+            techStack: ['Unity', 'C#'],
+            link: 'https://github.com/azwadkm22/Flappy-Borb'
+        },
+
+        
+        {
             title: 'JobDen',
             description: '',
             techStack: ['Flutter SDK', 'Dart'],
