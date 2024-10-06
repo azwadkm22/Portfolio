@@ -1,20 +1,44 @@
 // src/components/Projects.js
 import React from 'react';
+import ProjectCard from './ProjectCard';
 
 function Projects() {
+    // Manually defined projects array
+    const projects = [
+        {
+            title: 'Personal Portfolio Website',
+            description: 'A single-page application to showcase my skills, projects, and resume. Built with React and Tailwind CSS.',
+            techStack: ['React', 'Tailwind CSS', 'JavaScript'],
+            link: 'https://github.com/your-github-username/portfolio-website'
+        },
+        {
+            title: 'Game Development Project',
+            description: 'A 3D game developed in Unreal Engine. This project involved creating gameplay mechanics, animations, and level design.',
+            techStack: ['Unreal Engine', 'C++'],
+            link: 'https://github.com/your-github-username/game-project'
+        },
+        {
+            title: 'E-commerce Platform',
+            description: 'A full-stack e-commerce platform with a shopping cart, checkout process, and order management. Built using Node.js, Express, and MongoDB.',
+            techStack: ['Node.js', 'Express', 'MongoDB'],
+            link: 'https://github.com/your-github-username/e-commerce-platform'
+        },
+        // Add more projects as needed
+    ];
+
     return (
-        <div className="h-screen flex flex-col items-center justify-center bg-white text-gray-800">
-            <h1 className="text-4xl font-bold mb-4">My Projects</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl">
-                <div className="p-6 bg-gray-100 rounded-lg shadow-md">
-                    <h2 className="text-xl font-bold mb-2">Project 1</h2>
-                    <p>A cool project I built using React and Node.js.</p>
-                </div>
-                <div className="p-6 bg-gray-100 rounded-lg shadow-md">
-                    <h2 className="text-xl font-bold mb-2">Project 2</h2>
-                    <p>An awesome mobile app built using Flutter and Firebase.</p>
-                </div>
-                {/* Add more projects here */}
+        <div className="min-h-screen bg-gray-100 p-10">
+            <h1 className="text-4xl font-bold text-center mb-8">My Projects</h1>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {projects.map((project, index) => (
+                    <ProjectCard
+                        key={index}
+                        title={project.title}
+                        description={project.description}
+                        techStack={project.techStack}
+                        link={project.link}
+                    />
+                ))}
             </div>
         </div>
     );
