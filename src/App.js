@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import { Element } from 'react-scroll';
 import Certifications from './components/Certifications';
 import Education from './components/Education';
+import Achievements from './components/Achievements';
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
       <Element name="education">
         <Education />
       </Element>
+      <Element name="achievements">
+        <Achievements />
+
+      </Element>
+      
       <Element name="skills">
         <Skills />
       </Element>
