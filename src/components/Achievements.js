@@ -5,19 +5,19 @@ import AchievementCard from './AchievementCard';
 function Achievements() {
     const achievements = [
         {
-            title: "Dean's List",
-            description: "Achieved Dean’s List honors for academic excellence in 2023.",
+            title: "Champion of DU CTF 2023 with team CSE_FRD",
+            description: "DU CTF is an intra university cyber security competition hosted by CSEDU Students Club.",
             date: "2023",
         },
         {
-            title: "Hackathon Winner",
-            description: "Won first place in the XYZ Hackathon by developing an innovative solution in 48 hours.",
-            date: "2022",
+            title: "Top 10 Finalist of HackTheVerse Open APIs Challenge Hackathon with team CSEDU_ARD",
+            description: "HackTheVerse - Cefalo Presents ITverse 2023 is an inter university Hackathon organised by Institute of Information Technology, University of Dhaka.",
+            date: "2023",
         },
         {
-            title: "Certified Android Developer",
-            description: "Earned official certification as an Android Developer from Google.",
-            date: "2021",
+            title: "Provisional finalist of Robi Datathon 2.0 with team DU_Datamon",
+            description: "Robi Datathon 2.0 was Bangladesh's biggest datathon of 2022 revolving around the role of Big Data and Machine Learning in solving business problems.",
+            date: "2022",
         },
         // Add more achievements as needed
     ];
