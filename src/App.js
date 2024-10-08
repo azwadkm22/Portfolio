@@ -10,6 +10,7 @@ import { Element } from 'react-scroll';
 import Certifications from './components/Certifications';
 import Education from './components/Education';
 import Achievements from './components/Achievements';
+import ProfessionalExperience from './components/ProfessionalExperience';
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
       <Element name="about">
         <About />
       </Element>
+      <Element name="experience">
+        <ProfessionalExperience />
+      </Element>
+      
       <Element name="education">
         <Education />
       </Element>
