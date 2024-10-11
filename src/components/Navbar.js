@@ -37,7 +37,7 @@ function Navbar() {
                 </a>
 
                 {/* Mobile Menu Button */}
-                <div className="md:hidden text-gray-700 cursor-pointer">
+                {/* <div className="md:hidden text-gray-700 cursor-pointer">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"
@@ -52,7 +52,7 @@ function Navbar() {
                             d="M4 6h16M4 12h16M4 18h16"
                         />
                     </svg>
-                </div>
+                </div> */}
             </div>
         </nav>
     );
