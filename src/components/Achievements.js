@@ -30,7 +30,7 @@ function Achievements() {
                     {achievements.map((achievement, index) => (
                         <div key={index} className="border-l-4 border-blue-500 pl-6">
                             <h3 className="text-2xl font-semibold text-gray-800">{achievement.title}</h3>
-                            <p className="text-md text-gray-500 mb-1">{achievement.date}</p>
+                            <p className="text-lg text-gray-500 mb-1">{achievement.date}</p>
                             <p className="text-lg text-gray-700">{achievement.description}</p>
                         </div>
                     ))}
