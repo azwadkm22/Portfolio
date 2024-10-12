@@ -26,14 +26,13 @@ function Achievements() {
         <section id="achievements" className="py-12 bg-gray-50">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Achievements</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="space-y-8">
                     {achievements.map((achievement, index) => (
-                        <AchievementCard
-                            key={index}
-                            title={achievement.title}
-                            description={achievement.description}
-                            date={achievement.date}
-                        />
+                        <div key={index} className="border-l-4 border-blue-500 pl-6">
+                            <h3 className="text-2xl font-semibold text-gray-800">{achievement.title}</h3>
+                            <p className="text-md text-gray-500 mb-1">{achievement.date}</p>
+                            <p className="text-lg text-gray-700">{achievement.description}</p>
+                        </div>
                     ))}
                 </div>
             </div>
