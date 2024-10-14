@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f3308ab2.css",
-    "main.js": "/Portfolio/static/js/main.aaeb8311.js",
+    "main.css": "/Portfolio/static/css/main.f2f24866.css",
+    "main.js": "/Portfolio/static/js/main.b7324486.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/IdealSchoolLogo.png": "/Portfolio/static/media/IdealSchoolLogo.4c57daa6b8b9dda2ce47.png",
     "static/media/portrait.jpg": "/Portfolio/static/media/portrait.4a4d3f82a02c5c3b87c0.jpg",
@@ -9,12 +9,12 @@
     "static/media/duLogo.png": "/Portfolio/static/media/duLogo.da8700a3da64c9527d0d.png",
     "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.b2b2eb3ea3eb09aa163e2989509e5aa6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.f3308ab2.css.map": "/Portfolio/static/css/main.f3308ab2.css.map",
-    "main.aaeb8311.js.map": "/Portfolio/static/js/main.aaeb8311.js.map",
+    "main.f2f24866.css.map": "/Portfolio/static/css/main.f2f24866.css.map",
+    "main.b7324486.js.map": "/Portfolio/static/js/main.b7324486.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3308ab2.css",
-    "static/js/main.aaeb8311.js"
+    "static/css/main.f2f24866.css",
+    "static/js/main.b7324486.js"
   ]
 }
