@@ -33,7 +33,7 @@ function Education() {
     return (
         <div className="bg-gray-150 text-gray-800 py-16">
             <div className="max-w-4xl mx-auto">
-                <h1 className="text-4xl font-bold text-left mb-12">Education</h1>
+                <h1 className="text-4xl font-bold text-center text-left mb-12">Education</h1>
                 <div className="relative">
                     {/* Timeline Line */}
                     <div className="absolute border-r-4 border-gray-300 h-full left-16"></div>
