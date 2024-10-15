@@ -1,12 +1,15 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 function Contact() {
     const [formData, setFormData] = useState({
-        name: '',
-        email: '',
+        to_name: 'Azwad',
+        from_name: '',
+        user_email: '',
         message: ''
     });
+    const [status, setStatus] = useState('');
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -14,8 +17,23 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
-        // Implement form submission logic
+        console.log(formData.from_name);
+        console.log(formData.user_email);
+        console.log(formData.message);
+        const serviceID = 'service_tqscayi';
+        const templateID = 'template_d07nnnu';
+        const userID = 'Dz-UelAcryc97AGp9';
+
+        emailjs.send(serviceID, templateID, formData, userID)
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                setStatus('Message sent successfully!');
+                setFormData({ to_name: 'Azwad', from_name: '', user_email: '', message: '' }); // Clear form
+            })
+            .catch((error) => {
+                console.log('FAILED...', error);
+                setStatus('Failed to send message. Please try again later.');
+            });
     };
 
     return (
@@ -26,9 +44,9 @@ function Contact() {
                 <div className="relative mb-6">
                     <input
                         type="text"
-                        name="name"
+                        name="from_name" // Updated to match formData key
                         placeholder="Your Name"
-                        value={formData.name}
+                        value={formData.from_name}
                         onChange={handleChange}
                         className="w-full p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
                         required
@@ -38,9 +56,9 @@ function Contact() {
                 <div className="relative mb-6">
                     <input
                         type="email"
-                        name="email"
+                        name="user_email" // Updated to match formData key
                         placeholder="Your Email"
-                        value={formData.email}
+                        value={formData.user_email}
                         onChange={handleChange}
                         className="w-full p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
                         required
