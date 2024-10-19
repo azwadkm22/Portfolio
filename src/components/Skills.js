@@ -14,6 +14,7 @@ function Skills() {
                     <h2 className="text-2xl font-semibold mb-4">Programming Languages</h2>
                     <ul className="space-y-2">
                         <li>C++</li>
+                        <li>C#</li>
                         <li>Python</li>
                         <li>JavaScript</li>
                         <li>Java</li>
@@ -30,7 +31,8 @@ function Skills() {
                         <li>React.js</li>
                         <li>Node.js</li>
                         <li>Express.js</li>
-                        <li>Flutter</li>
+                        <li>Flutter SDK</li>
+                        <li>Android SDK</li>
                     </ul>
                 </div>
 
