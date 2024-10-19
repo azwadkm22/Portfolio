@@ -44,7 +44,7 @@ function Certifications() {
     ];
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100 text-gray-800 py-16">
+        <div className="min-h-screen flex items-center justify-center bg-gray-100 text-gray-800 py-16 px-8">
             <div className="max-w-8xl mx-auto text-center">
                 <h1 className="text-4xl font-bold mb-12">Certifications</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 lg:gap-12">

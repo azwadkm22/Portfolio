@@ -20,9 +20,11 @@ function App() {
       <Element name="home">
         <Home />
       </Element>
+
       <Element name="about">
         <About />
       </Element>
+
       <Element name="experience">
         <ProfessionalExperience />
       </Element>
@@ -30,19 +32,23 @@ function App() {
       <Element name="education">
         <Education />
       </Element>
+
       <Element name="achievements">
         <Achievements />
       </Element>
-      
+
       <Element name="skills">
         <Skills />
       </Element>
+
       <Element name="projects">
         <Projects />
       </Element>
+
       <Element name="certifications">
         <Certifications />
       </Element>
+
       <Element name="contact">
         <Contact />
       </Element>

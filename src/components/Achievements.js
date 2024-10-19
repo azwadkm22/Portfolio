@@ -23,7 +23,7 @@ function Achievements() {
     ];
 
     return (
-        <section id="achievements" className="py-12 bg-gray-50">
+        <section id="achievements" className="py-12 bg-gray-50 py-24">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">Achievements</h2>
                 <div className="space-y-8">

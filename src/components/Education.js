@@ -31,7 +31,7 @@ function Education() {
     ];
 
     return (
-        <div className="bg-gray-150 text-gray-800 py-16">
+        <div className="bg-gray-150 text-gray-800 py-24">
             <div className="max-w-4xl mx-auto">
                 <h1 className="text-4xl font-bold text-center text-left mb-12">Education</h1>
                 <div className="relative">
