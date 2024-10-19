@@ -32,7 +32,6 @@ function App() {
       </Element>
       <Element name="achievements">
         <Achievements />
-
       </Element>
       
       <Element name="skills">
