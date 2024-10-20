@@ -9,15 +9,15 @@ function Navbar() {
         <nav className="fixed w-full bg-white/80 backdrop-blur-md shadow-md py-4 z-50">
             <div className="container mx-auto flex items-center justify-start px-6">
                 {/* Logo */}
-                <div className="text-2xl font-bold text-gray-800 hover:text-blue-500 transition duration-300 mr-10">
+                <div className="text-2xl font-bold text-gray-800 hover:text-blue-500 transition duration-300 mr-10 cursor-pointer">
                     <Link to="home" smooth={true} duration={500}>azwadkm22</Link>
                 </div>
 
                 {/* Nav Links */}
-                <ul className="flex space-x-8 text-md">
+                <ul className="flex space-x-8 text-md ">
                     {navItems.map((item, index) => (
                         <li key={index}>
-                            <Link to={`${item.toLowerCase()}`} smooth={true} duration={500}>{item}</Link>
+                            <Link to={`${item.toLowerCase()}`} className='hover:text-blue-500 cursor-pointer' smooth={true} duration={500}>{item}</Link>
                         </li>
                     ))}
                 </ul>
