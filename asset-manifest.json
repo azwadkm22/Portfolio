@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ff5ab83c.css",
-    "main.js": "/Portfolio/static/js/main.51f647fc.js",
+    "main.js": "/Portfolio/static/js/main.360d708c.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/IdealSchoolLogo.png": "/Portfolio/static/media/IdealSchoolLogo.4c57daa6b8b9dda2ce47.png",
     "static/media/portrait.jpg": "/Portfolio/static/media/portrait.4a4d3f82a02c5c3b87c0.jpg",
@@ -10,11 +10,11 @@
     "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.b2b2eb3ea3eb09aa163e2989509e5aa6.svg",
     "index.html": "/Portfolio/index.html",
     "main.ff5ab83c.css.map": "/Portfolio/static/css/main.ff5ab83c.css.map",
-    "main.51f647fc.js.map": "/Portfolio/static/js/main.51f647fc.js.map",
+    "main.360d708c.js.map": "/Portfolio/static/js/main.360d708c.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff5ab83c.css",
-    "static/js/main.51f647fc.js"
+    "static/js/main.360d708c.js"
   ]
 }
