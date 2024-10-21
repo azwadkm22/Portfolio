@@ -25,21 +25,19 @@ function Projects() {
         },
         {
             title: 'cg_calculator',
-            description: 'cg_calculator is a simple but handy app that I created for my personal use to calculate the CGPA after I input the individual weights and CG of each course in a semester.',
+            description: 'cg_calculator is a simple but handy app that I created for my personal use to calculate the CGPA after I input the individual weights and CG of each course in a semester. This project was built using Flutter with Dart',
             techStack: ['Flutter SDK', 'Dart'],
             link: 'https://github.com/azwadkm22/cg_calculator'
         },
         {
             title: 'Flappy Borb',
-            description: 'Flappy Borb is a Flappy Bird Clone made in Unity.',
+            description: 'Flappy Borb is a Flappy Bird clone that I developed using Unity. This project helped me familiarize myself with basic Unity features, scripting in C#, and game loop design while creating a fun, fast-paced experience reminiscent of the classic mobile game.',
             techStack: ['Unity', 'C#'],
             link: 'https://github.com/azwadkm22/Flappy-Borb'
         },
-
-        
         {
             title: 'JobDen',
-            description: '',
+            description: 'JobDen is a comprehensive job search app that enables users to search for, apply to, and post job opportunities. The platform provides an intuitive interface for job seekers to find relevant positions, submit applications, and track their job search progress. Employers can also easily post job listings to reach potential candidates. The app was built using Flutter with Dart.',
             techStack: ['Flutter SDK', 'Dart'],
             link: 'https://github.com/azwadkm22/JobDen'
         },
