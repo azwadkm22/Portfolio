@@ -25,7 +25,7 @@ function Projects() {
         },
         {
             title: 'cg_calculator',
-            description: '',
+            description: 'cg_calculator is a simple but handy app that I created for my personal use to calculate the CGPA after I input the individual weights and CG of each course in a semester.',
             techStack: ['Flutter SDK', 'Dart'],
             link: 'https://github.com/azwadkm22/cg_calculator'
         },
