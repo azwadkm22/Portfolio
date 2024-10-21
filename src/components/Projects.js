@@ -7,19 +7,19 @@ function Projects() {
     const projects = [
         {
             title: 'boku.gg',
-            description: '',
+            description: 'Boku.gg is a feature-rich anime streaming app that offers users the ability to explore and enjoy a wide range of anime. Users can browse and search for their favorite shows by title or genre, stream episodes seamlessly, and maintain personalized lists of their favorite anime series. Built using Flutter with Dart, the app provides a smooth, responsive, and intuitive experience across multiple devices.',
             techStack: ['Flutter SDK', 'Dart'],
             link: 'https://github.com/azwadkm22/boku.gg'
         },
         {
             title: 'Solvei',
-            description: '',
+            description: 'Solvei is a platform dedicated to helping CSEDU students by providing a searchable archive of past exam questions. Users can search for questions by year, course code, or instructor, making it easier to find relevant materials for their studies. Additionally, students can contribute by posting answers or leaving comments on specific questions. The backend is hosted on Render, while the frontend is deployed on Vercel. The project was developed using React.js for the frontend, Express.js for the backend, and JavaScript as the primary programming language. The design was implemented using basic CSS as a personal challenge.',
             techStack: ['React', 'Express', 'HTML' , 'CSS', 'JavaScript'],
             link: 'https://github.com/your-github-username/portfolio-website'
         },
         {
             title: 'Thaprabo the game',
-            description: 'A platformer game I made for my friend Nashmin\'s birthday in 2021 using Godot Engine.',
+            description: 'A platformer game I made in 2021 using Godot Engine.',
             techStack: ['Godot Engine', 'GDScript'],
             link: 'https://github.com/azwadkm22/Thaprabo-The-Game'
         },
