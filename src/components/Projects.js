@@ -15,11 +15,11 @@ function Projects() {
             title: 'Solvei',
             description: 'Solvei is a platform dedicated to helping CSEDU students by providing a searchable archive of past exam questions. Users can search for questions by year, course code, or instructor, making it easier to find relevant materials for their studies. Additionally, students can contribute by posting answers or leaving comments on specific questions. The backend is hosted on Render, while the frontend is deployed on Vercel. The project was developed using React.js for the frontend, Express.js for the backend, and JavaScript as the primary programming language. The design was implemented using basic CSS as a personal challenge.',
             techStack: ['React', 'Express', 'HTML' , 'CSS', 'JavaScript'],
-            link: 'https://github.com/your-github-username/portfolio-website'
+            link: 'https://github.com/azwadkm22/Solvei'
         },
         {
             title: 'Thaprabo the game',
-            description: 'A platformer game I made in 2021 using Godot Engine.',
+            description: 'Thaprabo the Game is a 2D platformer I created as a surprise for a friend\'s birthday in 2021, using the Godot Engine for its simplicity and accessibility.The game features multiple levels, a variety of enemies, and mechanics inspired by Hollow Knight, blending challenge with engaging gameplay.This project gave me the opportunity to explore Godot\'s powerful scripting language (GDScript), hone my level design skills, and refine my understanding of game mechanics and interactive storytelling.',
             techStack: ['Godot Engine', 'GDScript'],
             link: 'https://github.com/azwadkm22/Thaprabo-The-Game'
         },
