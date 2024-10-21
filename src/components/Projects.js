@@ -43,7 +43,7 @@ function Projects() {
         },
         {
             title: 'Will - You - Go - With - Me - SDL2',
-            description: 'Will You Go With Me is a simple Platformer game developed using SDL2. It has custom sounds and multiple levels. A fairly early level project. Youtube showcase: https://www.youtube.com/watch?v=NAlCNrqi4nU',
+            description: 'Will You Go With Me is a 2D platformer developed using SDL2, featuring custom sounds and multiple levels for a straightforward gameplay experience. As my first major project, it gave me valuable experience in managing larger-scale development. It also allowed me to dive deeper into essential game development elements such as level design, sound integration, save game handling, score saving, and platforming mechanics — all while leveraging SDL2\'s multimedia capabilities.', //Youtube showcase: https://www.youtube.com/watch?v=NAlCNrqi4nU',
             techStack: ['C++', 'SDL2'],
             link: 'https://github.com/azwadkm22/Will-You-Go-With-Me-SDL2'
         },
