@@ -12,14 +12,14 @@ function Home() {
 
                 {/* Links to GitHub, LinkedIn, and Leetcode */}
                 <div className="flex justify-center space-x-8">
-                    <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/azwadkm22" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="text-5xl hover:text-gray-300 transition-colors" />
                     </a>
-                    <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/azwadkm22/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="text-5xl hover:text-gray-300 transition-colors" />
                     </a>
                     <a
-                        href="https://leetcode.com/yourusername"
+                        href="https://leetcode.com/u/azwadkm22/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:scale-110 transition-transform"
