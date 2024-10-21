@@ -4,7 +4,7 @@ import profilePic from '../assets/portrait.jpg';  // Import your profile image
 
 function About() {
     return (
-        <div className="h-screen flex items-center justify-center bg-gray-200 text-gray-800">
+        <div className="h-screen flex items-center justify-center bg-gray-100 text-gray-800">
             <div className="flex flex-col md:flex-row items-center md:space-x-8 text-center md:text-left">
                 {/* Profile Image */}
                 <div>
