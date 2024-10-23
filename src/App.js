@@ -11,11 +11,12 @@ import Certifications from './components/Certifications';
 import Education from './components/Education';
 import Achievements from './components/Achievements';
 import ProfessionalExperience from './components/ProfessionalExperience';
-
+import SideView from './components/Sideview';
 function App() {
   return (
     <div>
       <Navbar />
+      <SideView />
       {/* Define each section with <Element> for smooth scrolling */}
       <Element name="home">
         <Home />
