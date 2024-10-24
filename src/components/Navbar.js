@@ -13,14 +13,14 @@ function Navbar() {
                     <Link to="home" smooth={true} duration={500}>azwadkm22</Link>
                 </div>
 
-                {/* Nav Links */}
+                {/* Nav Links
                 <ul className="flex space-x-8 text-md ">
                     {navItems.map((item, index) => (
                         <li key={index}>
                             <Link to={`${item.toLowerCase()}`} className='hover:text-blue-500 cursor-pointer' smooth={true} duration={500}>{item}</Link>
                         </li>
                     ))}
-                </ul>
+                </ul> */}
 
                 {/* Resume Button (on the right side) */}
                 <div className="ml-auto">

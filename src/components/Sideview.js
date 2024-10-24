@@ -1,47 +1,92 @@
-import React, { useState, useEffect } from 'react';
+// src/components/SideView.js
+import React from 'react';
+import { Link } from 'react-scroll';
 
 function SideView() {
-    const [activeSection, setActiveSection] = useState('');
-
-    useEffect(() => {
-        const sections = document.querySelectorAll('section');
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        setActiveSection(entry.target.id);
-                    }
-                });
-            },
-            { threshold: 0.6 }
-        );
-
-        sections.forEach((section) => {
-            observer.observe(section);
-        });
-
-        return () => {
-            sections.forEach((section) => {
-                observer.unobserve(section);
-            });
-        };
-    }, []);
-
-    const sectionTitles = ["Home", "About", "Skills", "Projects", "Experience", "Contact"];
-
     return (
-        <nav className="fixed top-1/4 left-0 bg-white/80 backdrop-blur-md shadow-lg z-50 w-48 py-4">
-            <ul className="space-y-6 text-lg">
-                {sectionTitles.map((title, index) => (
-                    <li
-                        key={index}
-                        className={`pl-4 ${activeSection === title.toLowerCase() ? 'text-blue-500 font-bold' : 'text-gray-700'}`}
+        <div className="fixed left-0 h-[calc(100vh-60px)] mt-16 bg-gray-800 p-4 w-48">
+            {/* Adjust the margin-top (mt-16) based on the navbar's height */}
+            <ul className="space-y-4">
+                <li>
+                    <Link
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-white hover:text-blue-500 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
                     >
-                        {title}
-                    </li>
-                ))}
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-white hover:text-blue-500 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="experience"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-white hover:text-blue-500 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        Experience
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-white hover:text-blue-500 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        Skills
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-white hover:text-blue-500 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        Projects
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-white hover:text-blue-500 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        Contact
+                    </Link>
+                </li>
             </ul>
-        </nav>
+        </div>
     );
 }
 
