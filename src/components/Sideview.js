@@ -7,7 +7,7 @@ function SideView() {
     return (
         <div className="fixed left-0 top-16 h-[calc(100vh-64px)] bg-gray-100 shadow-md p-6 w-60 space-y-6 flex flex-col justify-between">
             <ul className="space-y-4">
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 py-5">
                     <FaHome className="text-gray-600" />
                     <Link
                         to="home"
@@ -21,7 +21,7 @@ function SideView() {
                         Home
                     </Link>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 py-5">
                     <FaUser className="text-gray-600" />
                     <Link
                         to="about"
@@ -35,7 +35,7 @@ function SideView() {
                         About
                     </Link>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 py-5">
                     <FaBriefcase className="text-gray-600" />
                     <Link
                         to="experience"
@@ -49,35 +49,7 @@ function SideView() {
                         Experience
                     </Link>
                 </li>
-                <li className="flex items-center space-x-2">
-                    <FaCode className="text-gray-600" />
-                    <Link
-                        to="skills"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className="text-gray-600 hover:text-blue-500 transition-all duration-300 cursor-pointer"
-                        activeClass="text-blue-500 font-bold"
-                    >
-                        Skills
-                    </Link>
-                </li>
-                <li className="flex items-center space-x-2">
-                    <FaProjectDiagram className="text-gray-600" />
-                    <Link
-                        to="projects"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        className="text-gray-600 hover:text-blue-500 transition-all duration-300 cursor-pointer"
-                        activeClass="text-blue-500 font-bold"
-                    >
-                        Projects
-                    </Link>
-                </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 py-5">
                     <FaTrophy className="text-gray-600" />
                     <Link
                         to="achievements"
@@ -91,7 +63,36 @@ function SideView() {
                         Achievements
                     </Link>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 py-5">
+                    <FaCode className="text-gray-600" />
+                    <Link
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-gray-600 hover:text-blue-500 transition-all duration-300 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        Skills
+                    </Link>
+                </li>
+                <li className="flex items-center space-x-2 py-5">
+                    <FaProjectDiagram className="text-gray-600" />
+                    <Link
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-gray-600 hover:text-blue-500 transition-all duration-300 cursor-pointer"
+                        activeClass="text-blue-500 font-bold"
+                    >
+                        Projects
+                    </Link>
+                </li>
+                
+                <li className="flex items-center space-x-2 py-5">
                     <FaCertificate className="text-gray-600" />
                     <Link
                         to="certifications"
@@ -105,8 +106,8 @@ function SideView() {
                         Certifications
                     </Link>
                 </li>
-                <li className="flex items-center space-x-2">
-                    <FaEnvelope className="text-gray-600" />
+                <li className="flex items-center space-x-2 py-5">
+                    <FaEnvelope className="text-gray-600 " />
                     <Link
                         to="contact"
                         spy={true}
