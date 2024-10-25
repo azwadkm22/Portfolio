@@ -16,8 +16,8 @@ function About() {
                 </div>
                 {/* About Text */}
                 <div className="max-w-4xl">
-                    <h1 className="text-4xl font-bold mb-4">About Me</h1>
-                    <p className="text-lg">
+                    <h1 className="text-4xl font-bold mb-4 mx-12">About Me</h1>
+                    <p className="text-lg mx-12">
                         Hi, Azwad here, a CSE graduate from the University of Dhaka. Currently working as a 
                         Software Engineer at Samsung Research and Development, Bangladesh. I'm a simple humanoid creature, 
                         that constantly strives to expand his horizons and sharpen his abilities, aspiring to be much

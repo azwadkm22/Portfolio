@@ -17,8 +17,8 @@ function ProfessionalExperience() {
     return (
         <section id="professional-experience" className="py-12 bg-gray-200">
             <div className="container mx-auto px-6 py-16">
-                <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">Professional Experience</h2>
-                <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+                <h2 className="text-4xl font-bold text-center mb-8 text-gray-800 ">Professional Experience</h2>
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mx-24">
                     {experiences.map((experience, index) => (
                         <ExperienceItem
                             key={index}
