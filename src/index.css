@@ -19,3 +19,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.active-link {
+  color: #3F83F8;
+  /* blue color */
+  font-weight: bold;
+  position: relative;
+}
+
+.active-link::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  /* adjust depending on how far you want the blue bar */
+  top: 0;
+  height: 120%;
+  width: 4px;
+  background-color: #3F83F8;
+  /* blue bar color */
+}
