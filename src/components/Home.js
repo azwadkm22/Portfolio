@@ -8,7 +8,7 @@ function Home() {
         <div className="h-screen flex items-center justify-center bg-blue-500 text-white">
             <div className="text-center">
                 <h1 className="text-5xl font-bold mb-4">Hello there, nice to see you here.</h1>
-                <p className="text-xl mb-6">I’m a Software Engineer with a passion for building things!</p>
+                <p className="text-xl mb-6 px-48">I’m a software engineer with a passion for game development, creative pursuits, and personal growth, striving to balance career ambitions with a wide range of interests while managing challenges like focus and motivation.</p>
 
                 {/* Links to GitHub, LinkedIn, and Leetcode */}
                 <div className="flex justify-center space-x-8">
