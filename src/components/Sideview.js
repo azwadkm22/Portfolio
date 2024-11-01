@@ -1,7 +1,7 @@
 // src/components/SideView.js
 import React from 'react';
 import { Link } from 'react-scroll';
-import { FaHome, FaUser, FaCode, FaProjectDiagram, FaBriefcase, FaEnvelope, FaTrophy, FaCertificate } from 'react-icons/fa'; // Example Icons
+import { FaHome, FaUser, FaCode, FaProjectDiagram, FaBriefcase, FaEnvelope, FaTrophy, FaCertificate, FaGraduationCap } from 'react-icons/fa'; // Added FaGraduationCap
 
 function SideView() {
     return (
@@ -47,6 +47,20 @@ function SideView() {
                     >
                         <FaBriefcase className="text-gray-600" />
                         <span>Experience</span>
+                    </Link>
+                </li>
+                <li className="relative flex items-center space-x-2 py-5">
+                    <Link
+                        to="education"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="flex items-center w-full space-x-2 text-gray-600 hover:text-blue-500 transition-all duration-300 cursor-pointer"
+                        activeClass="active-link"
+                    >
+                        <FaGraduationCap className="text-gray-600" />
+                        <span>Education</span>
                     </Link>
                 </li>
                 <li className="relative flex items-center space-x-2 py-5">
