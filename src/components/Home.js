@@ -13,10 +13,10 @@ function Home() {
                 {/* Links to GitHub, LinkedIn, and Leetcode */}
                 <div className="flex justify-center space-x-8">
                     <a href="https://github.com/azwadkm22" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="text-5xl hover:text-gray-300 transition-colors" />
+                        <FaGithub className="text-5xl hover:scale-110 hover:text-gray-300 transition-colors" />
                     </a>
                     <a href="https://www.linkedin.com/in/azwadkm22/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="text-5xl hover:text-gray-300 transition-colors" />
+                        <FaLinkedin className="text-5xl hover:scale-110 hover:text-gray-300 transition-colors" />
                     </a>
                     <a
                         href="https://leetcode.com/u/azwadkm22/"
