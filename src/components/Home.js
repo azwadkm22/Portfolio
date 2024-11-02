@@ -5,7 +5,7 @@ import leetcodeLogo from '../assets/leetcode.svg';
 
 function Home() {
     return (
-        <div className="h-screen flex items-center justify-center bg-blue-500 text-white">
+        <div className="h-screen flex items-center justify-center bg-blue-500 text-slate-100">
             <div className="text-center">
                 <h1 className="text-5xl font-bold mb-4">Hello there, nice to see you here.</h1>
                 <p className="text-xl mb-6 px-60">I’m a software engineer with a passion for game development, creative pursuits, and personal growth, striving to balance career ambitions with a wide range of interests while managing challenges like focus and motivation.</p>
