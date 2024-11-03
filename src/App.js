@@ -17,7 +17,7 @@ function App() {
     <div>
       <Navbar />
       <SideView />
-      <div className="ml-60">
+      <div className="lg:ml-60 md:ml-0">
       {/* Define each section with <Element> for smooth scrolling */}
       <Element name="home">
         <Home />

@@ -5,7 +5,7 @@ import { FaHome, FaUser, FaCode, FaProjectDiagram, FaBriefcase, FaEnvelope, FaTr
 
 function SideView() {
     return (
-        <div className="fixed left-0 top-16 h-[calc(100vh-64px)] bg-gray-100 shadow-md p-6 w-60 space-y-6 flex flex-col justify-between">
+        <div className="fixed left-0 top-16 h-[calc(100vh-64px)] bg-gray-100 shadow-md p-6 w-60 space-y-6 flex flex-col justify-between lg:visible md:invisible">
             <ul className="space-y-4">
                 <li className="relative flex items-center space-x-2 py-5">
                     <Link
