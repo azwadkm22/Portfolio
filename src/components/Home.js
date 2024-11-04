@@ -28,8 +28,11 @@ function Home() {
                             src={leetcodeLogo}
                             alt="LeetCode"
                             className="h-12 w-12 object-contain"
-                            style={{ filter: 'grayscale(100%) brightness(80%)' }}  // Apply grey filter
+                            style={{ filter: 'invert(100%) grayscale(100%) brightness(95%)' }}  // Apply grey filter
+                            onMouseOver={(e) => e.currentTarget.style.filter = 'invert(100%) grayscale(100%) brightness(80%)'}
+                            onMouseOut={(e) => e.currentTarget.style.filter = 'invert(100%) grayscale(100%) brightness(95%)'}
                         />
+                        
                     </a>
                 </div>
             </div>
