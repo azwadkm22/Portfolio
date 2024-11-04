@@ -11,13 +11,13 @@ function About() {
                     <img
                         src={profilePic}
                         alt="Profile"
-                        className="w-80 h-80 rounded-full object-cover shadow-lg mb-6 md:mb-0"  // Image centered on small screens, margin adjustment
+                        className="w-40 h-40 md:w-80 md:h-80 rounded-full object-cover shadow-lg mb-6 md:mb-0"  // Image centered on small screens, margin adjustment
                     />
                 </div>
                 {/* About Text */}
                 <div className="max-w-4xl">
-                    <h1 className="text-4xl font-bold mb-4 mx-12">About Me</h1>
-                    <p className="text-lg mx-12">
+                    <h1 className="text-2xl md:text-4xl font-bold mb-4 mx-12">About Me</h1>
+                    <p className="text-lg md:mx-12 mx-2">
                         Hi, Azwad here, a CSE graduate from the University of Dhaka. Currently working as a 
                         Software Engineer at Samsung Research and Development, Bangladesh. I'm a simple humanoid creature, 
                         that constantly strives to expand his horizons and sharpen his abilities, aspiring to be much
