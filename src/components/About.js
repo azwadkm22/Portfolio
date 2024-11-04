@@ -17,8 +17,8 @@ function About() {
                 {/* About Text */}
                 <div className="max-w-4xl">
                     <h1 className="text-2xl md:text-4xl font-bold mb-4 mx-12">About Me</h1>
-                    <p className="text-lg md:mx-12 mx-2">
-                        Hi, Azwad here, a CSE graduate from the University of Dhaka. Currently working as a 
+                    <p className="text-lg md:mx-12 mx-2 p-6 sm:p-0">
+                        Hi, I am K. M. Azwad Hossain, a CSE graduate from the University of Dhaka. Currently working as a 
                         Software Engineer at Samsung Research and Development, Bangladesh. I'm a simple humanoid creature, 
                         that constantly strives to expand his horizons and sharpen his abilities, aspiring to be much
                         more. My interests include game design, web design, music composition and reinforcement learning.
