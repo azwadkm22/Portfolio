@@ -44,7 +44,7 @@ function Certifications() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100 text-gray-800 py-12 px-4 sm:px-8">
             <div className="max-w-7xl mx-auto text-center">
-                <h1 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12">Certifications</h1>
+                <h1 className="text-2xl sm:text-4xl font-bold mb-8 sm:mb-12">Certifications</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {certifications.map((cert, index) => (
                         <a
