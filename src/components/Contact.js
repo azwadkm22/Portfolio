@@ -37,55 +37,59 @@ function Contact() {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900 text-white">
-            <form onSubmit={handleSubmit} className="max-w-lg w-full p-8 bg-gray-800 shadow-lg rounded-lg border border-gray-700">
-                <h1 className="text-4xl font-bold mb-8 text-center text-blue-400">Get in Touch</h1>
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900 text-white px-4 sm:px-8 py-12">
+            <form
+                onSubmit={handleSubmit}
+                className="w-full max-w-md sm:max-w-lg p-6 sm:p-8 bg-gray-800 shadow-lg rounded-lg border border-gray-700"
+            >
+                <h1 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-center text-blue-400">Get in Touch</h1>
 
-                <div className="relative mb-6">
+                <div className="relative mb-4 sm:mb-6">
                     <input
                         type="text"
                         name="from_name" // Updated to match formData key
                         placeholder="Your Name"
                         value={formData.from_name}
                         onChange={handleChange}
-                        className="w-full p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                        className="w-full p-3 sm:p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
                         required
                     />
                 </div>
 
-                <div className="relative mb-6">
+                <div className="relative mb-4 sm:mb-6">
                     <input
                         type="email"
                         name="user_email" // Updated to match formData key
                         placeholder="Your Email"
                         value={formData.user_email}
                         onChange={handleChange}
-                        className="w-full p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                        className="w-full p-3 sm:p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
                         required
                     />
                 </div>
 
-                <div className="relative mb-6">
+                <div className="relative mb-4 sm:mb-6">
                     <textarea
                         name="message"
                         placeholder="Your Message"
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
-                        rows="5"
+                        className="w-full p-3 sm:p-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                        rows="4"
                         required
                     ></textarea>
                 </div>
 
                 <button
                     type="submit"
-                    className="w-full bg-blue-500 hover:bg-blue-600 p-3 rounded-lg text-white font-semibold text-lg transition-all duration-200 transform hover:scale-105"
+                    className="w-full bg-blue-500 hover:bg-blue-600 p-3 sm:p-4 rounded-lg text-white font-semibold text-lg transition-all duration-200 transform hover:scale-105"
                 >
                     Send Message
                 </button>
             </form>
         </div>
     );
+
 }
 
 export default Contact;
