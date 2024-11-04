@@ -54,10 +54,10 @@ function Certifications() {
                             rel="noopener noreferrer"
                             className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
                         >
-                            <div className="p-6 sm:p-8">
-                                <h2 className="text-xl sm:text-2xl font-semibold mb-2">{cert.title}</h2>
-                                <p className="text-gray-600 mb-4">{cert.provider}</p>
-                                <p className="text-gray-500">{cert.date}</p>
+                            <div className="p-4 sm:p-8">
+                                <h2 className="text-base sm:text-xl sm:text-2xl font-semibold mb-2">{cert.title}</h2>
+                                <p className="text-sm sm:text-base text-gray-600 mb-4">{cert.provider}</p>
+                                <p className="text-sm sm:text-base text-gray-500">{cert.date}</p>
                             </div>
                         </a>
                     ))}
