@@ -23,7 +23,7 @@ function Navbar() {
                 </ul> */}
 
                 {/* Resume Button (on the right side) */}
-                <div className="ml-auto">
+                {/* <div className="ml-auto">
                     <a
                         href="/Resume.pdf"
                         target="_blank"
@@ -32,7 +32,7 @@ function Navbar() {
                     >
                         Resume
                     </a>
-                </div>
+                </div> */}
             </div>
         </nav>
     );
