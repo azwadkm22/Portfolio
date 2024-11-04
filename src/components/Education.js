@@ -36,13 +36,13 @@ function Education() {
                 <h1 className="text-2xl md:text-4xl font-bold text-center text-left mb-12">Education</h1>
                 <div className="relative">
                     {/* Timeline Line */}
-                    <div className="absolute border-r-4 border-gray-300 h-full left-4 md:left-16"></div>
+                    <div className="absolute border-r-4 border-gray-300 h-full left-6 md:left-16"></div>
 
                     <div className="space-y-12">
                         {qualifications.map((qual, index) => (
                             <div key={index} className="relative flex items-center justify-between">
                                 {/* Circle Marker */}
-                                <div className="w-4 h-4 md:w-6 md:h-6 rounded-full bg-gray-400 border-4 border-white absolute left-4 md:left-12"></div>
+                                <div className="w-4 h-4 md:w-6 md:h-6 rounded-full bg-gray-400 border-4 border-white absolute left-6 md:left-12"></div>
                                 {/* Qualification Details */}
                                 <div className="ml-6 pl-4 md:ml-16 md:pl-8">
                                     <h2 className="text-base md:text-xl font-semibold">{qual.degree}</h2>
