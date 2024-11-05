@@ -23,16 +23,16 @@ function Navbar() {
                 </ul> */}
 
                 {/* Resume Button (on the right side) */}
-                {/* <div className="ml-auto">
+                <div className="ml-auto">
                     <a
-                        href="/Resume.pdf"
+                        href="https://drive.google.com/uc?export=download&id=16gEzpsAvPGBLWMHO0BRULGEm8_rdraOe"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
                     >
                         Resume
                     </a>
-                </div> */}
+                </div>
             </div>
         </nav>
     );
