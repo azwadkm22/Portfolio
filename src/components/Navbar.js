@@ -25,7 +25,7 @@ function Navbar() {
                 {/* Resume Button (on the right side) */}
                 <div className="ml-auto">
                     <a
-                        href="https://drive.google.com/uc?export=download&id=1OfVyGvdT5G7VGr4WfPNbe5Vw6_jF1eAZ"
+                        href="https://drive.google.com/uc?export=download&id=17Vi34k8pqQiN5PzWt0WlzT1RDfsyNcLZ"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
